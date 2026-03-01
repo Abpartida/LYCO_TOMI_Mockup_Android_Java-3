@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="ic_launcher_background">#FF5757</color>
+    <color name="tomato">#E53935</color>
+    <color name="tomato_dark">#B71C1C</color>
+    <color name="tomato_light">#FFCDD2</color>
+    <color name="white">#FFFFFF</color>
+    <string name="active">Active</string>
+    <string name="alert_channel_name">Robot Alerts</string>
+    <string name="alert_history">Alert History</string>
+    <string name="alert_permission_needed">Enable notifications to preview alerts.</string>
+    <string name="alert_test_body">This is a sample notification from the alert history tab.</string>
+    <string name="alert_test_title">Test Alert</string>
+    <string name="app_name">LYCO: TOMI</string>
+    <string name="battery_life">Battery Life</string>
+    <string name="control">Control</string>
+    <string name="direction_backward">Reverse</string>
+    <string name="direction_backward_left">Reverse-Left</string>
+    <string name="direction_backward_right">Reverse-Right</string>
+    <string name="direction_center">Center</string>
+    <string name="direction_forward">Forward</string>
+    <string name="direction_forward_left">Forward-Left</string>
+    <string name="direction_forward_right">Forward-Right</string>
+    <string name="direction_left">Left</string>
+    <string name="direction_right">Right</string>
+    <string name="fan_controls">Fan Controls</string>
+    <string name="fan_off">Fan Off</string>
+    <string name="fan_on">Fan On</string>
+    <string name="idle">Idle</string>
+    <string name="joystick_control">Joystick Control</string>
+    <string name="joystick_direction">Joystick: %1$s</string>
+    <string name="joystick_idle">Joystick idle</string>
+    <string name="lift_controls">Lift Controls</string>
+    <string name="login">Login</string>
+    <string name="lower">Lower</string>
+    <string name="lower_lift">Lower Lift</string>
+    <string name="password">Password</string>
+    <string name="pest_column_count">Count</string>
+    <string name="pest_column_name">Pest</string>
+    <string name="pest_column_time">Timestamp</string>
+    <string name="pest_column_trap">Trap</string>
+    <string name="pest_history">Pest History</string>
+    <string name="raise">Raise</string>
+    <string name="raise_lift">Raise Lift</string>
+    <string name="search_pest">Search Pest</string>
+    <string name="send_test_alert">Send Test Notification</string>
+    <string name="username">Username</string>
+    <style name="Theme.LYCOTOMIMockup" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/tomato</item>
+        <item name="colorPrimaryContainer">@color/tomato_light</item>
+        <item name="android:statusBarColor">@color/tomato_dark</item>
+    </style>
+</resources>

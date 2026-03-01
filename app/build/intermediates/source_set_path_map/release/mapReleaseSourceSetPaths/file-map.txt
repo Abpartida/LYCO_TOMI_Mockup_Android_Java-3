@@ -1,0 +1,36 @@
+com.lyco.tomi.app-coordinatorlayout-1.1.0-0 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1faf6c6a3d5f14a40dc97890c8a4e11c/transformed/coordinatorlayout-1.1.0/res
+com.lyco.tomi.app-jetified-startup-runtime-1.1.1-1 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/res
+com.lyco.tomi.app-appcompat-1.7.0-2 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3ac7fcd4a6ad8f1c7d52ae9860e9a148/transformed/appcompat-1.7.0/res
+com.lyco.tomi.app-lifecycle-runtime-2.6.2-3 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3c320e1f7dc0c08a1e14fb6b552b50ac/transformed/lifecycle-runtime-2.6.2/res
+com.lyco.tomi.app-lifecycle-livedata-core-2.6.2-4 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4849cd79306125e86eee6ad1cff7b401/transformed/lifecycle-livedata-core-2.6.2/res
+com.lyco.tomi.app-jetified-annotation-experimental-1.4.0-5 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/51198958ccd6144f8a9f9cc4e5354d6c/transformed/jetified-annotation-experimental-1.4.0/res
+com.lyco.tomi.app-jetified-lifecycle-process-2.6.2-6 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/res
+com.lyco.tomi.app-jetified-customview-poolingcontainer-1.0.0-7 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/581d89d819990984c2d42e897e9bd38a/transformed/jetified-customview-poolingcontainer-1.0.0/res
+com.lyco.tomi.app-core-runtime-2.2.0-8 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/5d407505063c00e131180ed15a40d1c6/transformed/core-runtime-2.2.0/res
+com.lyco.tomi.app-jetified-viewpager2-1.1.0-beta02-9 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/638dbeff4f1d94e4907ba792c2f035b5/transformed/jetified-viewpager2-1.1.0-beta02/res
+com.lyco.tomi.app-jetified-core-ktx-1.13.1-10 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/64848af9838940a585d4a7c5956f86df/transformed/jetified-core-ktx-1.13.1/res
+com.lyco.tomi.app-jetified-appcompat-resources-1.7.0-11 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/7743ba89f005825aa842e31918c72fc8/transformed/jetified-appcompat-resources-1.7.0/res
+com.lyco.tomi.app-jetified-emoji2-views-helper-1.3.0-12 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/793ff53f8dca2a905f314e178a6950f9/transformed/jetified-emoji2-views-helper-1.3.0/res
+com.lyco.tomi.app-lifecycle-livedata-2.6.2-13 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/85b212128258bc8a6b6a1d125cf7763c/transformed/lifecycle-livedata-2.6.2/res
+com.lyco.tomi.app-lifecycle-viewmodel-2.6.2-14 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/94f173ee6124db9c53c6490b7f0e684a/transformed/lifecycle-viewmodel-2.6.2/res
+com.lyco.tomi.app-constraintlayout-2.2.0-15 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9beb7b4bdcdccdc0d540751437a8b41e/transformed/constraintlayout-2.2.0/res
+com.lyco.tomi.app-cardview-1.0.0-16 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9e409df1642e58c985e9d3658428d45c/transformed/cardview-1.0.0/res
+com.lyco.tomi.app-jetified-profileinstaller-1.4.0-17 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/res
+com.lyco.tomi.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-18 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ab86f7bdf3537567be10880376c06237/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.lyco.tomi.app-jetified-savedstate-1.2.1-19 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b75296e7f6cf6144f3baf2446071b5b5/transformed/jetified-savedstate-1.2.1/res
+com.lyco.tomi.app-core-1.13.1-20 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/res
+com.lyco.tomi.app-material-1.12.0-21 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/cc34993e1c0478fc065755b0118e2c51/transformed/material-1.12.0/res
+com.lyco.tomi.app-fragment-1.5.4-22 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d97480c9e80d52246e1b441e0d4c09b9/transformed/fragment-1.5.4/res
+com.lyco.tomi.app-drawerlayout-1.1.1-23 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d9ac79745c74bf951dbb470a2ce5caa9/transformed/drawerlayout-1.1.1/res
+com.lyco.tomi.app-recyclerview-1.3.2-24 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/df1baf51db2d26265ad01cbc43d9687d/transformed/recyclerview-1.3.2/res
+com.lyco.tomi.app-jetified-emoji2-1.3.0-25 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/res
+com.lyco.tomi.app-transition-1.5.0-26 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e73fc83d16675d8f5cae42a9d0fbd841/transformed/transition-1.5.0/res
+com.lyco.tomi.app-jetified-activity-1.9.2-27 /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ef25c04fc1ad4232fbd83e2c046299f8/transformed/jetified-activity-1.9.2/res
+com.lyco.tomi.app-pngs-28 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/build/generated/res/pngs/release
+com.lyco.tomi.app-resValues-29 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/build/generated/res/resValues/release
+com.lyco.tomi.app-updated_navigation_xml-30 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/build/generated/updated_navigation_xml/release
+com.lyco.tomi.app-packageReleaseResources-31 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.lyco.tomi.app-packageReleaseResources-32 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.lyco.tomi.app-release-33 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.lyco.tomi.app-main-34 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/res
+com.lyco.tomi.app-release-35 /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/release/res

@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app"
+    name=":app"
+    type="APP"
+    maven="LYCO TOMI Mockup:app:unspecified"
+    agpVersion="8.13.2"
+    buildFolder="build"
+    bootClassPath="/Users/ramonpartida/Library/Android/sdk/platforms/android-34/android.jar:/Users/ramonpartida/Library/Android/sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

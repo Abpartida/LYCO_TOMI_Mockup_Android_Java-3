@@ -1,0 +1,7 @@
+<resources>
+    <color name="tomato">#E53935</color>
+    <color name="tomato_dark">#B71C1C</color>
+    <color name="tomato_light">#FFCDD2</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

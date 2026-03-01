@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvAlertTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvAlertDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Description"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvAlertTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert timestamp"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

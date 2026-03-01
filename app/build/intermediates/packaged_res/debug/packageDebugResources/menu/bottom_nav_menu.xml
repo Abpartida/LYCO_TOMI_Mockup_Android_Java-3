@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_alerts" android:title="@string/alert_history" android:icon="@android:drawable/ic_dialog_alert"/>
+    <item android:id="@+id/nav_pests" android:title="@string/pest_history" android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:id="@+id/nav_control" android:title="@string/control" android:icon="@android:drawable/ic_media_play"/>
+</menu>

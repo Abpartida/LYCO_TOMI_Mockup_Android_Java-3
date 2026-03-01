@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:1:1-24:12
+MERGED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:1:1-24:12
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml:1:1-5:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/cc34993e1c0478fc065755b0118e2c51/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9beb7b4bdcdccdc0d540751437a8b41e/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/7743ba89f005825aa842e31918c72fc8/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3ac7fcd4a6ad8f1c7d52ae9860e9a148/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/638dbeff4f1d94e4907ba792c2f035b5/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/df1baf51db2d26265ad01cbc43d9687d/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d97480c9e80d52246e1b441e0d4c09b9/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ef25c04fc1ad4232fbd83e2c046299f8/transformed/jetified-activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/581d89d819990984c2d42e897e9bd38a/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/793ff53f8dca2a905f314e178a6950f9/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d9ac79745c74bf951dbb470a2ce5caa9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1faf6c6a3d5f14a40dc97890c8a4e11c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e73fc83d16675d8f5cae42a9d0fbd841/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c02c25a81e9cefdfdcb6dd642f4e46cf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/dc7c618afb0c753106f8a8db4a50d280/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4fdfc50d7bf9b6c1fe122f8ddd776033/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4e9b7c469cb249787e6e2ff0a1add28c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/8cacf51dc8bdffee1b672baccee5fc1b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/bb421579d649a80077c0e8581eb74280/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e5b8c0932e5203f26803fe4956ef3090/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b75296e7f6cf6144f3baf2446071b5b5/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/94f173ee6124db9c53c6490b7f0e684a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4849cd79306125e86eee6ad1cff7b401/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/85b212128258bc8a6b6a1d125cf7763c/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3c320e1f7dc0c08a1e14fb6b552b50ac/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ab86f7bdf3537567be10880376c06237/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/64848af9838940a585d4a7c5956f86df/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/51198958ccd6144f8a9f9cc4e5354d6c/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/f42791c4a263168802b095199a410010/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9e409df1642e58c985e9d3658428d45c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1db5741dca311edeae4ea313fec4879d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b8cc16f2c0ab1354d31cc07ea22e8b45/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/f4a995ecf959f5bdf8381f390fcf52c9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d5edfd86806d65497fe2f984b15c9041/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/2e10d580e3322d35ff1c40d9f7beb3a5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/659c6a441bd24e42e1caf7debd051bfd/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/5d407505063c00e131180ed15a40d1c6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:5:22-74
+application
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:6:5-23:19
+MERGED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:6:5-23:19
+MERGED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:6:5-23:19
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml:2:5-4:72
+MERGED from [com.google.android.material:material:1.12.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/cc34993e1c0478fc065755b0118e2c51/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/cc34993e1c0478fc065755b0118e2c51/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9beb7b4bdcdccdc0d540751437a8b41e/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9beb7b4bdcdccdc0d540751437a8b41e/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b8cc16f2c0ab1354d31cc07ea22e8b45/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b8cc16f2c0ab1354d31cc07ea22e8b45/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:14:9-52
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:14:9-52
+	android:networkSecurityConfig
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:11:9-69
+	android:usesCleartextTraffic
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:7:9-32
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:7:9-32
+activity#com.lyco.tomi.LoginActivity
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:16:9-21:20
+	android:exported
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:16:49-72
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:16:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.lyco.tomi.MainActivity
+ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/main/AndroidManifest.xml:22:19-47
+uses-sdk
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/cc34993e1c0478fc065755b0118e2c51/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/cc34993e1c0478fc065755b0118e2c51/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9beb7b4bdcdccdc0d540751437a8b41e/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9beb7b4bdcdccdc0d540751437a8b41e/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/7743ba89f005825aa842e31918c72fc8/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/7743ba89f005825aa842e31918c72fc8/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3ac7fcd4a6ad8f1c7d52ae9860e9a148/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3ac7fcd4a6ad8f1c7d52ae9860e9a148/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/638dbeff4f1d94e4907ba792c2f035b5/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/638dbeff4f1d94e4907ba792c2f035b5/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/df1baf51db2d26265ad01cbc43d9687d/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/df1baf51db2d26265ad01cbc43d9687d/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d97480c9e80d52246e1b441e0d4c09b9/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d97480c9e80d52246e1b441e0d4c09b9/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ef25c04fc1ad4232fbd83e2c046299f8/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ef25c04fc1ad4232fbd83e2c046299f8/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/581d89d819990984c2d42e897e9bd38a/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/581d89d819990984c2d42e897e9bd38a/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/793ff53f8dca2a905f314e178a6950f9/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/793ff53f8dca2a905f314e178a6950f9/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d9ac79745c74bf951dbb470a2ce5caa9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d9ac79745c74bf951dbb470a2ce5caa9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1faf6c6a3d5f14a40dc97890c8a4e11c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1faf6c6a3d5f14a40dc97890c8a4e11c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e73fc83d16675d8f5cae42a9d0fbd841/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e73fc83d16675d8f5cae42a9d0fbd841/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c02c25a81e9cefdfdcb6dd642f4e46cf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c02c25a81e9cefdfdcb6dd642f4e46cf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/dc7c618afb0c753106f8a8db4a50d280/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/dc7c618afb0c753106f8a8db4a50d280/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4fdfc50d7bf9b6c1fe122f8ddd776033/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4fdfc50d7bf9b6c1fe122f8ddd776033/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4e9b7c469cb249787e6e2ff0a1add28c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4e9b7c469cb249787e6e2ff0a1add28c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/8cacf51dc8bdffee1b672baccee5fc1b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/8cacf51dc8bdffee1b672baccee5fc1b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/bb421579d649a80077c0e8581eb74280/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/bb421579d649a80077c0e8581eb74280/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e5b8c0932e5203f26803fe4956ef3090/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e5b8c0932e5203f26803fe4956ef3090/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b75296e7f6cf6144f3baf2446071b5b5/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b75296e7f6cf6144f3baf2446071b5b5/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/94f173ee6124db9c53c6490b7f0e684a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/94f173ee6124db9c53c6490b7f0e684a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4849cd79306125e86eee6ad1cff7b401/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/4849cd79306125e86eee6ad1cff7b401/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/85b212128258bc8a6b6a1d125cf7763c/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/85b212128258bc8a6b6a1d125cf7763c/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3c320e1f7dc0c08a1e14fb6b552b50ac/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/3c320e1f7dc0c08a1e14fb6b552b50ac/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ab86f7bdf3537567be10880376c06237/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/ab86f7bdf3537567be10880376c06237/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/64848af9838940a585d4a7c5956f86df/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/64848af9838940a585d4a7c5956f86df/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/51198958ccd6144f8a9f9cc4e5354d6c/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/51198958ccd6144f8a9f9cc4e5354d6c/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/f42791c4a263168802b095199a410010/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/f42791c4a263168802b095199a410010/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9e409df1642e58c985e9d3658428d45c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/9e409df1642e58c985e9d3658428d45c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1db5741dca311edeae4ea313fec4879d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/1db5741dca311edeae4ea313fec4879d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b8cc16f2c0ab1354d31cc07ea22e8b45/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/b8cc16f2c0ab1354d31cc07ea22e8b45/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/f4a995ecf959f5bdf8381f390fcf52c9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/f4a995ecf959f5bdf8381f390fcf52c9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d5edfd86806d65497fe2f984b15c9041/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/d5edfd86806d65497fe2f984b15c9041/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/2e10d580e3322d35ff1c40d9f7beb3a5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/2e10d580e3322d35ff1c40d9f7beb3a5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/659c6a441bd24e42e1caf7debd051bfd/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/659c6a441bd24e42e1caf7debd051bfd/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/5d407505063c00e131180ed15a40d1c6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/5d407505063c00e131180ed15a40d1c6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ramonpartida/Documents/LYCO_TOMI_Mockup_Android_Java 3/app/src/debug/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/24ddbf789937452c01fa45e81747c801/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/e2ac9a504a8e4711b71d9dbbf7a8f1a3/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.lyco.tomi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.lyco.tomi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/c9d5f6296aaee531c8dba82dc5a567fd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/52a5a963c27e8590148418a4f88db2a7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/ramonpartida/.gradle/caches/9.0-milestone-1/transforms/aaafd7b3d4c6b4bdc139c676ed09a024/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
