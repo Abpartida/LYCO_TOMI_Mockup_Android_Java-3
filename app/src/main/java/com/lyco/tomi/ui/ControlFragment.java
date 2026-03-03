@@ -1,6 +1,8 @@
 package com.lyco.tomi.ui;
 
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -9,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
@@ -30,11 +33,24 @@ public class ControlFragment extends Fragment {
     private static final String TAG = "ControlFragment";
     private static final long JOYSTICK_DIRECTION_DEBOUNCE_MS = 150L;
     private static final long JOYSTICK_NEUTRAL_HOLD_MS = 350L;
+    private static final long JOYSTICK_HEARTBEAT_INTERVAL_MS = 250L;
     private static final float JOYSTICK_DEAD_ZONE_DP = 24f;
     private String lastDirectionSent;
     private long lastDirectionTimestamp;
     private long neutralSinceTimestamp;
     private float joystickDeadZonePx;
+    private FastApiService api;
+    private Call<Void> joystickDirectionCallInFlight;
+    private final Handler joystickHeartbeatHandler = new Handler(Looper.getMainLooper());
+    private final Runnable joystickHeartbeatRunnable = new Runnable() {
+        @Override
+        public void run() {
+            if (lastDirectionSent == null) {
+                return;
+            }
+            sendDirectionIfNeeded(lastDirectionSent);
+        }
+    };
 
     @Nullable
     @Override
@@ -49,6 +65,9 @@ public class ControlFragment extends Fragment {
             getResources().getDisplayMetrics()
         );
 
+        EditText heightInput = root.findViewById(R.id.inputHeight);
+        Button autonomousStart = root.findViewById(R.id.btnAutonomousStart);
+        Button autonomousStop = root.findViewById(R.id.btnAutonomousStop);
         Button liftRaise = root.findViewById(R.id.btnLiftRaise);
         Button liftLower = root.findViewById(R.id.btnLiftLower);
         Button fanOn = root.findViewById(R.id.btnFanOn);
@@ -57,7 +76,7 @@ public class ControlFragment extends Fragment {
         TextView joystickStatus = root.findViewById(R.id.tvJoystickStatus);
 
         //  Retrofit service (uses ApiEnvironment baseUrl; MockWebServer overrides it in debug)
-        FastApiService api = FastApiClient.getService();
+        api = FastApiClient.getService();
 
         // --- Lift: press = move, release = stop ---
         liftRaise.setOnTouchListener((btn, event) -> {
@@ -93,12 +112,37 @@ public class ControlFragment extends Fragment {
         //fanOn.setEnabled(false);
         //fanOff.setEnabled(false);
 
+        autonomousStart.setOnClickListener(v -> {
+            Log.d(TAG, "Start Autonomous Control tapped");
+            // TODO: Hook up to backend once endpoint is available.
+        });
+
+        autonomousStop.setOnClickListener(v -> {
+            Log.d(TAG, "Stop Autonomous Control tapped");
+            // TODO: Hook up to backend once endpoint is available.
+        });
+
         // Joystick stays the same
         joystickArea.setOnTouchListener((view, event) ->
-            handleJoystick(event, view, joystickStatus, api)
+            handleJoystick(event, view, joystickStatus)
         );
 
+        // Currently we just keep the user-provided height handy for future controls.
+        heightInput.setOnFocusChangeListener((v, hasFocus) -> {
+            if (!hasFocus) {
+                Log.d(TAG, "Height input updated to " + heightInput.getText());
+            }
+        });
+
         return root;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        stopJoystickHeartbeat();
+        cancelInFlightDirectionCall();
+        api = null;
     }
 
     // Simple reusable callback so we don’t repeat boilerplate
@@ -114,7 +158,7 @@ public class ControlFragment extends Fragment {
         };
     }
 
-    private boolean handleJoystick(MotionEvent event, View area, TextView status, FastApiService api) {
+    private boolean handleJoystick(MotionEvent event, View area, TextView status) {
         int action = event.getActionMasked();
         long now = System.currentTimeMillis();
         if (action == MotionEvent.ACTION_DOWN || action == MotionEvent.ACTION_MOVE) {
@@ -125,7 +169,7 @@ public class ControlFragment extends Fragment {
             clearNeutral();
             String reason = action == MotionEvent.ACTION_UP ? "ACTION_UP" : "ACTION_CANCEL";
             Log.d(TAG, "Pointer finished via " + reason);
-            sendDriveStopIfNeeded(api, reason);
+            sendDriveStopIfNeeded(reason);
             return true;
         }
 
@@ -134,7 +178,7 @@ public class ControlFragment extends Fragment {
         if (centerX == 0 || centerY == 0) {
             status.setText(R.string.joystick_idle);
             markNeutral(now);
-            maybeSendNeutralStop(api, now, "NO_DIMENSIONS");
+            maybeSendNeutralStop(now, "NO_DIMENSIONS");
             return true;
         }
 
@@ -148,7 +192,7 @@ public class ControlFragment extends Fragment {
         if (distance < joystickDeadZonePx) {
             status.setText(R.string.joystick_idle);
             markNeutral(now);
-            maybeSendNeutralStop(api, now, "DEAD_ZONE");
+            maybeSendNeutralStop(now, "DEAD_ZONE");
             return true;
         }
 
@@ -158,7 +202,7 @@ public class ControlFragment extends Fragment {
         String direction = directionForAngle(angle);
         status.setText(getString(R.string.joystick_direction, direction));
         clearNeutral();
-        sendDirectionIfNeeded(api, direction);
+        sendDirectionIfNeeded(direction);
 
         return true;
     }
@@ -179,7 +223,7 @@ public class ControlFragment extends Fragment {
         neutralSinceTimestamp = 0L;
     }
 
-    private void maybeSendNeutralStop(FastApiService api, long now, String reason) {
+    private void maybeSendNeutralStop(long now, String reason) {
         if (lastDirectionSent == null) {
             return;
         }
@@ -188,7 +232,7 @@ public class ControlFragment extends Fragment {
         }
         if ((now - neutralSinceTimestamp) >= JOYSTICK_NEUTRAL_HOLD_MS) {
             Log.d(TAG, "Neutral hold triggered stop via " + reason);
-            sendDriveStopIfNeeded(api, "NEUTRAL_" + reason);
+            sendDriveStopIfNeeded("NEUTRAL_" + reason);
         }
     }
 
@@ -213,26 +257,88 @@ public class ControlFragment extends Fragment {
         return getString(R.string.direction_center);
     }
 
-    private void sendDirectionIfNeeded(FastApiService api, String direction) {
+    private void sendDirectionIfNeeded(String direction) {
+        if (api == null) {
+            Log.w(TAG, "Cannot send joystick direction; api is null");
+            startJoystickHeartbeat();
+            return;
+        }
         long now = System.currentTimeMillis();
         if (direction.equals(lastDirectionSent) && (now - lastDirectionTimestamp) < JOYSTICK_DIRECTION_DEBOUNCE_MS) {
+            startJoystickHeartbeat();
+            return;
+        }
+
+        if (joystickDirectionCallInFlight != null) {
+            Log.d(TAG, "Joystick direction call still in flight; skipping new send");
+            startJoystickHeartbeat();
             return;
         }
 
         lastDirectionSent = direction;
         lastDirectionTimestamp = now;
-        api.sendJoystickDirection(new JoystickDirectionRequest(direction)).enqueue(emptyCallback());
+        Call<Void> call = api.sendJoystickDirection(new JoystickDirectionRequest(direction));
+        joystickDirectionCallInFlight = call;
+        call.enqueue(new Callback<Void>() {
+            @Override public void onResponse(Call<Void> call, Response<Void> response) {
+                if (!response.isSuccessful()) {
+                    Log.w(TAG, "Joystick direction request failed with code " + response.code());
+                }
+                clearInFlightCall(call);
+            }
+
+            @Override public void onFailure(Call<Void> call, Throwable t) {
+                if (!call.isCanceled()) {
+                    Log.w(TAG, "Joystick direction request error", t);
+                }
+                clearInFlightCall(call);
+            }
+        });
+        startJoystickHeartbeat();
     }
 
-    private void sendDriveStopIfNeeded(FastApiService api, String reason) {
+    private void sendDriveStopIfNeeded(String reason) {
         if (lastDirectionSent == null) {
             Log.d(TAG, "Skip stop (" + reason + ") because nothing is active");
+            return;
+        }
+        if (api == null) {
+            Log.w(TAG, "Cannot send stop; api is null");
+            lastDirectionSent = null;
+            lastDirectionTimestamp = 0L;
+            neutralSinceTimestamp = 0L;
+            cancelInFlightDirectionCall();
+            stopJoystickHeartbeat();
             return;
         }
         Log.d(TAG, "Sending stop (" + reason + ") after " + lastDirectionSent);
         lastDirectionSent = null;
         lastDirectionTimestamp = 0L;
         neutralSinceTimestamp = 0L;
+        cancelInFlightDirectionCall();
+        stopJoystickHeartbeat();
         api.stopDrive().enqueue(emptyCallback());
+    }
+
+    private void startJoystickHeartbeat() {
+        joystickHeartbeatHandler.removeCallbacks(joystickHeartbeatRunnable);
+        joystickHeartbeatHandler.postDelayed(joystickHeartbeatRunnable, JOYSTICK_HEARTBEAT_INTERVAL_MS);
+    }
+
+    private void stopJoystickHeartbeat() {
+        joystickHeartbeatHandler.removeCallbacks(joystickHeartbeatRunnable);
+    }
+
+    private void cancelInFlightDirectionCall() {
+        if (joystickDirectionCallInFlight != null) {
+            joystickDirectionCallInFlight.cancel();
+            joystickDirectionCallInFlight = null;
+        }
+    }
+
+    private void clearInFlightCall(Call<Void> completedCall) {
+        if (joystickDirectionCallInFlight == completedCall) {
+            joystickDirectionCallInFlight = null;
+        }
     }
 }

@@ -8,6 +8,10 @@
         "source": "/Users/ramonpartida/.gradle/daemon/9.0-milestone-1/com.lyco.tomi.app-main-34:/layout/activity_login.xml"
     },
     {
+        "merged": "com.lyco.tomi.app-debug-32:/layout_fragment_control.xml.flat",
+        "source": "com.lyco.tomi.app-main-34:/layout/fragment_control.xml"
+    },
+    {
         "merged": "/Users/ramonpartida/.gradle/daemon/9.0-milestone-1/com.lyco.tomi.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/ramonpartida/.gradle/daemon/9.0-milestone-1/com.lyco.tomi.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
     },
@@ -22,10 +26,6 @@
     {
         "merged": "/Users/ramonpartida/.gradle/daemon/9.0-milestone-1/com.lyco.tomi.app-debug-32:/layout_activity_main.xml.flat",
         "source": "/Users/ramonpartida/.gradle/daemon/9.0-milestone-1/com.lyco.tomi.app-main-34:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.lyco.tomi.app-debug-32:/xml_network_security_config.xml.flat",
-        "source": "com.lyco.tomi.app-debug-33:/xml/network_security_config.xml"
     },
     {
         "merged": "/Users/ramonpartida/.gradle/daemon/9.0-milestone-1/com.lyco.tomi.app-debug-32:/layout_fragment_control.xml.flat",

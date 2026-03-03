@@ -39,4 +39,9 @@
     <string name="fan_controls">Fan Controls</string>
     <string name="fan_on">Fan On</string>
     <string name="fan_off">Fan Off</string>
+    <string name="height_label">Desired Height</string>
+    <string name="height_hint">Enter height (inches)</string>
+    <string name="autonomous_control_label">Autonomous Control</string>
+    <string name="start_autonomous_control">Start Autonomous Control</string>
+    <string name="stop_autonomous_control">Stop Autonomous Control</string>
 </resources>

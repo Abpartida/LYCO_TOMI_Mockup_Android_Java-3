@@ -8,6 +8,8 @@ color tomato_light
 color white
 drawable ic_launcher_foreground
 id bottom_nav
+id btnAutonomousStart
+id btnAutonomousStop
 id btnFanOff
 id btnFanOn
 id btnLiftLower
@@ -18,6 +20,7 @@ id etPassword
 id etSearchPest
 id etUsername
 id fragment_container
+id inputHeight
 id joystickArea
 id nav_alerts
 id nav_control
@@ -51,6 +54,7 @@ string alert_permission_needed
 string alert_test_body
 string alert_test_title
 string app_name
+string autonomous_control_label
 string battery_life
 string control
 string direction_backward
@@ -65,6 +69,8 @@ string direction_right
 string fan_controls
 string fan_off
 string fan_on
+string height_hint
+string height_label
 string idle
 string joystick_control
 string joystick_direction
@@ -83,6 +89,8 @@ string raise
 string raise_lift
 string search_pest
 string send_test_alert
+string start_autonomous_control
+string stop_autonomous_control
 string username
 style Theme.LYCOTOMIMockup
 xml network_security_config

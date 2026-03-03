@@ -3213,6 +3213,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAutonomousStart
+id btnAutonomousStop
 id btnFanOff
 id btnFanOn
 id btnLiftLower
@@ -3351,6 +3353,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id inputHeight
 id invisible
 id inward
 id is_pooling_container_tag
@@ -3885,6 +3888,7 @@ string alert_test_title
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string autonomous_control_label
 string battery_life
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -3921,6 +3925,8 @@ string fab_transformation_sheet_behavior
 string fan_controls
 string fan_off
 string fan_on
+string height_hint
+string height_label
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string idle
@@ -4053,7 +4059,9 @@ string searchview_navigation_content_description
 string send_test_alert
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
+string start_autonomous_control
 string status_bar_notification_info_overflow
+string stop_autonomous_control
 string username
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

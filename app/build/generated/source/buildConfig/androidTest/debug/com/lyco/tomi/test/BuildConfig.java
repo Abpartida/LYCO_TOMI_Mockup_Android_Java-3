@@ -12,5 +12,5 @@ public final class BuildConfig {
   // Field from build type: debug
   public static final boolean IS_DEBUG = true;
   // Field from build type: debug
-  public static final boolean USE_MOCK_SERVER = true;
+  public static final boolean USE_MOCK_SERVER = false;
 }
